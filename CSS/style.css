@@ -40,13 +40,13 @@ div#division:hover {
 a#menu{
     color: rgb(0, 16, 17);
     text-decoration: none;
+    font-weight: bold;
     cursor: pointer;
     font-size: 120%;
     
 }
 a#menu:hover{
     color: rgb(0, 255, 191);
-    text-decoration: none;
     cursor: pointer;
     font-size: 124%;
 }
