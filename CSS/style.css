@@ -1,0 +1,41 @@
+html {
+    background-color: rgb(44, 44, 44);
+    height: 3000px;
+}
+
+
+/*Exemplo de menu (lateral esquerda) interativo*/
+
+div#division {
+    background-color: rgb(63, 97, 41);
+    position: fixed;
+    height: 100%;
+    width: 5px;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    transition: 2s
+}
+
+#division li {
+    position: absolute;
+    left: -100px;
+    transition: 2s;
+}
+
+#division ul {
+    list-style-type: none;
+}
+
+#division:hover li {
+    left: 100px;
+}
+
+div#division:hover {
+    background-color: chartreuse;
+    width: 300px;
+}
+
+#menu {
+    color: blue;
+}
