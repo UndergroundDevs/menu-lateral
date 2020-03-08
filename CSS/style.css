@@ -6,7 +6,7 @@ html {
 
 /*Exemplo de menu (lateral esquerda) interativo*/
 
-div#division {
+nav#division {
     background-color: rgb(63, 97, 41);
     position: fixed;
     height: 100%;
@@ -14,28 +14,87 @@ div#division {
     top: 0px;
     left: 0px;
     bottom: 0px;
-    transition: 2s
+    transition: 2s;
+    text-transform: uppercase;
 }
 
-#division li {
-    position: absolute;
-    left: -100px;
-    transition: 2s;
-}
+
+/*Editando lista do menu*/
 
 #division ul {
     list-style-type: none;
 }
 
-#division:hover li {
-    left: 100px;
+#config {
+    position: absolute;
+    background-color: red;
+    left: -100px;
+    height: 50px;
+    width: 200px;
+    margin-left: -8px;
+    border-radius: 0px 30px 0px 30px;
 }
 
-div#division:hover {
+p {
+    font-size: 12pt;
+    display: block;
+    margin-top: 15px;
+}
+
+#division li {
+    text-align: center;
+    margin: 2px;
+    border-radius: 0px 200px 0px 150px;
+    color: black;
+}
+
+#division li#li_1 {
+    position: absolute;
+    left: -100px;
+    top: 100px;
+    transition: 2s;
+}
+
+#division:hover li#li_1 {
+    left: 50%;
+}
+
+#division li#li_2 {
+    position: absolute;
+    left: -100px;
+    transition: 2s;
+    top: 200px;
+}
+
+#division:hover li#li_2 {
+    left: 50%;
+}
+
+#division li#li_3 {
+    position: absolute;
+    left: -100px;
+    transition: 2s;
+    top: 300px;
+}
+
+#division:hover li#li_3 {
+    left: 50%;
+}
+
+#loja {
+    text-decoration: none;
+    color: black;
+}
+
+#fale-conosco {
+    color: blue;
+}
+
+#home {
+    color: blue;
+}
+
+nav#division:hover {
     background-color: chartreuse;
     width: 300px;
-}
-
-#menu {
-    color: blue;
 }
