@@ -62,8 +62,8 @@ p {
 #division li#li_2 {
     position: absolute;
     left: -100px;
-    transition: 2s;
     top: 200px;
+    transition: 2s;
 }
 
 #division:hover li#li_2 {
@@ -73,25 +73,23 @@ p {
 #division li#li_3 {
     position: absolute;
     left: -100px;
-    transition: 2s;
     top: 300px;
+    transition: 2s;
 }
 
 #division:hover li#li_3 {
     left: 50%;
 }
 
-#loja {
-    text-decoration: none;
-    color: black;
+#division li#li_4 {
+    position: absolute;
+    left: -100px;
+    top: 400px;
+    transition: 2s;
 }
 
-#fale-conosco {
-    color: blue;
-}
-
-#home {
-    color: blue;
+#division:hover li#li_4 {
+    left: 50%;
 }
 
 nav#division:hover {
