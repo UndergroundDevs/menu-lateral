@@ -1,0 +1,16 @@
+:root{
+    /*Base da pagina*/
+        /*plano de fundo*/
+            --cor-plano-de-fundo: rgb(44, 44, 44);
+            --altura-plano-de-fundo: 3000px;
+
+    /*Menu lateral*/
+        /*Aparencia*/
+            --cor-inicial-menu-lateral: rgb(63, 97, 41);
+            --cor-final-menu-lateral: rgb(71, 143, 0);
+            --largura-inicial: 5px;
+            --largura-final: 300px;
+            --duracao-animacao-menu: 2s;
+            --pixels-texto-final: 100px;
+            
+}

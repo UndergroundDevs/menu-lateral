@@ -1,0 +1,4 @@
+html {
+    background-color: var(--cor-plano-de-fundo);
+    height: var(--altura-plano-de-fundo);
+}
