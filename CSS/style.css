@@ -32,7 +32,12 @@ nav#division {
     height: 50px;
     width: 200px;
     margin-left: -8px;
+    transition: 1s;
     border-radius: 0px 30px 0px 30px;
+}
+
+#config:hover {
+    background-color: rgb(138, 0, 0);
 }
 
 p {
