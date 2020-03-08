@@ -1,43 +1,40 @@
-html {
-    background-color: rgb(44, 44, 44);
-    height: 3000px;
-}
-
-
-/*Exemplo de menu (lateral esquerda) interativo*/
-
-div#division {
-    background-color: rgb(63, 97, 41);
+@import "root.css";
+/*Menu*/
+div#menu {
+    background-color: var(--cor-inicial-menu-lateral);
     position: fixed;
     height: 100%;
-    width: 5px;
+    width: var(--largura-inicial);
     top: 0px;
     left: 0px;
     bottom: 0px;
-    transition: 2s
+    transition: var(--duracao-animacao-menu);
 }
 
-#division li {
+/*Abrir menu*/
+div#menu:hover {
+    background-color: var(--cor-final-menu-lateral);
+    width: var(--largura-final);
+}
+
+/*Mostrar itens do menu*/
+#menu:hover li {
+    left: var(--pixels-texto-final);
+}
+
+/*itens do menu*/
+
+#menu li {
     position: absolute;
     left: -100px;
     transition: 2s;
 }
 
-#division ul {
+#menu ul {
     list-style-type: none;
 }
 
-#division:hover li {
-    left: 100px;
-}
-
-div#division:hover {
-    background-color: rgb(71, 143, 0);
-    width: 300px;
-    
-}
-
-a#menu{
+a#item-menu{
     color: rgb(0, 16, 17);
     text-decoration: none;
     font-weight: bold;
@@ -45,7 +42,7 @@ a#menu{
     font-size: 120%;
     
 }
-a#menu:hover{
+a#item-menu:hover{
     color: rgb(0, 255, 191);
     cursor: pointer;
     font-size: 124%;
