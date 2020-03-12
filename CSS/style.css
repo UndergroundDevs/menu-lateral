@@ -20,6 +20,7 @@ div#menu:hover {
 /*Mostrar itens do menu*/
 #menu:hover li {
     left: var(--pixels-texto-final);
+    opacity: 1;
 }
 
 /*itens do menu*/
@@ -28,6 +29,7 @@ div#menu:hover {
     position: absolute;
     left: -100px;
     transition: 2s;
+    opacity: 0;
 }
 
 #menu ul {

@@ -14,3 +14,12 @@
             --pixels-texto-final: 100px;
             
 }
+
+@keyframes oi{
+    form{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
